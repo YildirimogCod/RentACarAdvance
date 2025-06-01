@@ -1,0 +1,13 @@
+﻿using Core.Persistence.Repositories;
+using Domain.Entities;
+using Persistence.Contexts;
+
+namespace Persistence.Repositories
+{
+    public class FuelRepository: EfRepositoryBase<Fuel, Guid, BaseDbContext>
+    {
+        public FuelRepository(BaseDbContext context) : base(context)
+        {
+        }
+    }
+}

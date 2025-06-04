@@ -8,7 +8,7 @@ namespace Core.CrossCuttingConcerns.Exceptions
         private readonly RequestDelegate _next;
         private readonly HttpExceptionHandler _httpExceptionHandler;
 
-        public ExceptionMiddleware(RequestDelegate next)
+        public ExceptionMiddleware(RequestDelegate next )
         {
             _next = next;
             _httpExceptionHandler = new HttpExceptionHandler();

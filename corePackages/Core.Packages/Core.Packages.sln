@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Application", "Core.Ap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.CrossCuttingConcerns", "Core.CrossCuttingConcerns\Core.CrossCuttingConcerns.csproj", "{03018417-1FBC-4148-9408-678FAC583CF9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Security", "Core.Security\Core.Security.csproj", "{A097C82C-76A5-4DDD-B2AD-42B0158326AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{03018417-1FBC-4148-9408-678FAC583CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03018417-1FBC-4148-9408-678FAC583CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03018417-1FBC-4148-9408-678FAC583CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A097C82C-76A5-4DDD-B2AD-42B0158326AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A097C82C-76A5-4DDD-B2AD-42B0158326AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A097C82C-76A5-4DDD-B2AD-42B0158326AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A097C82C-76A5-4DDD-B2AD-42B0158326AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
